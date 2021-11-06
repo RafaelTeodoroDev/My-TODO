@@ -77,7 +77,7 @@ export const Container = styled.div`
     .icon{
       font-size: 5rem;
       font-weight: normal;
-      color: #C7B514;
+      color: var(--red);
     }
   }
 `;
