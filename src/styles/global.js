@@ -18,4 +18,4 @@ export const GlobalStyles = createGlobalStyle`
     --white: #F8F8F8;
     --red: #D8315B;
   }
-`
+`;

@@ -21,4 +21,4 @@ export function Header({newTaskTitle, setNewTaskTitle, handleCreateTask}){
     </div>
     </Container>
   )
-}
+};

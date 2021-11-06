@@ -57,5 +57,5 @@ export function TaskList({tasks, setTasks, newTaskTitle, setNewTaskTitle}){
       })}
     </Container>
   )
-}
+};
 

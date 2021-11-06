@@ -1,5 +1,6 @@
-import { TaskList } from './components/TaskList'
 import { GlobalStyles } from './styles/global'
+
+import { TaskList } from './components/TaskList'
 import { useState } from 'react'
 import { Header } from './components/Header'
 

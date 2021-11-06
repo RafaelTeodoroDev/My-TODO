@@ -80,4 +80,4 @@ export const Container = styled.div`
       color: #C7B514;
     }
   }
-`
+`;
