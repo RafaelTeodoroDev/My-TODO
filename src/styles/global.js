@@ -7,15 +7,15 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    background-color: var(--blue-200);
+    background-color: #5A4B94;
     width: 960px;
     margin: 0 auto;
   }
 
   :root{
-    --blue-500: #0A2463;
+    --blue-500: #1A5276;
     --blue-200: #3E92CC;
     --white: #F8F8F8;
-    --red: #D8315B;
+    --red: ##A6ACAF;
   }
 `;

@@ -14,6 +14,7 @@ function App() {
         id: Math.random() * 10,
         title: newTaskTitle,
         isCompleted: false,
+        created_at: new Date(),
       } ,...tasks])
   
       setNewTaskTitle('')

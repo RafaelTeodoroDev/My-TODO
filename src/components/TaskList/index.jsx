@@ -5,6 +5,7 @@ import { FiTrash } from 'react-icons/fi'
 import { CgDanger } from 'react-icons/cg'
 
 export function TaskList({tasks, setTasks, newTaskTitle, setNewTaskTitle}){
+  console.log(tasks)
 
   const [verifyExistsTasks, setVerifyExistsTasks] = useState(true)
   
@@ -25,8 +26,8 @@ export function TaskList({tasks, setTasks, newTaskTitle, setNewTaskTitle}){
   }
 
   function handleCompleteTask(id){
-    const newTask = tasks.map(task => task.id == id ? {...tasks, isCompleted: !task.isCompleted} : task)
-    
+    const newTask = tasks.map(task => task.id == id ? { ...tasks, isCompleted: !task.isCompleted} : task)
+
     setTasks(newTask)
   }
 
@@ -48,7 +49,9 @@ export function TaskList({tasks, setTasks, newTaskTitle, setNewTaskTitle}){
                 <div className="first-content">                 
                   <button onClick={() => handleCompleteTask(task.id)}></button>
                   <p>{task.title}</p>
+                  <span></span>
                 </div>  
+                
                 <button onClick={() => handleRemoveTask(task.id)}><FiTrash className="icon"/></button>
               </div>
             </div>
